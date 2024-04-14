@@ -1,6 +1,9 @@
 {
   "name": "Go Proxy BingAI",
   "build": {
-    "dockerfile": "./Dockerfile"
+    "dockerfile": "./Dockerfile",
+    "args": {
+      "--no-cache": "true"
+    }
   }
 }
